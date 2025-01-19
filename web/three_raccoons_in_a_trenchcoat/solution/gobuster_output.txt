@@ -1,0 +1,34 @@
+$ gobuster fuzz --wordlist /usr/share/wordlists/dirb/small.txt -u http://34.135.223.176:24100/storybook?page=FUZZ -b 404 --delay 3000ms
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://34.135.223.176:24100/storybook?page=FUZZ
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Delay:                   3s
+[+] Wordlist:                /usr/share/wordlists/dirb/small.txt
+[+] Excluded Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in fuzzing mode
+===============================================================
+Found: [Status=200] [Length=3074] [Word=100] http://34.135.223.176:24100/storybook?page=100
+                                                                                                                              
+Found: [Status=200] [Length=3144] [Word=1] http://34.135.223.176:24100/storybook?page=1
+                                                                                                                              
+Found: [Status=200] [Length=3136] [Word=2] http://34.135.223.176:24100/storybook?page=2
+                                                                                                                              
+Found: [Status=200] [Length=3117] [Word=3] http://34.135.223.176:24100/storybook?page=3
+                                                                                                                              
+Found: [Status=200] [Length=3036] [Word=archive] http://34.135.223.176:24100/storybook?page=archive
+                                                                                                                              
+Found: [Status=200] [Length=3166] [Word=hidden] http://34.135.223.176:24100/storybook?page=hidden
+                                                                                                                              
+Found: [Status=200] [Length=3166] [Word=secret] http://34.135.223.176:24100/storybook?page=secret
+                                                                                                                              
+Progress: 959 / 960 (99.90%)
+===============================================================
+Finished
+===============================================================

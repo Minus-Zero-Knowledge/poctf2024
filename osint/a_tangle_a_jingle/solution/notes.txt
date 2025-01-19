@@ -1,0 +1,6 @@
+https://www.grimsbytelegraph.co.uk/news/grimsby-news/man-launched-unprovoked-knife-attack-8755369
+https://maps.app.goo.gl/qJ9xD2KeR46b94Xh7
+
+
+
+hashcat -O -m 13600 -a 3 OSINT200-2.hash ?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d --increment --increment-min=10
